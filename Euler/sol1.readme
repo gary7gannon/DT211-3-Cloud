@@ -1,0 +1,5 @@
+Q1. If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+Find the sum of all the multiples of 3 or 5 below 1000.
+
+My understanding of the problem.
+So to sum all the multiples of 3 and 5 below 1000, you first set a variable (totsum) to 0 outside the loop, this initialises it where the value will be saved and not reset every time. Then set up the for loop to go up to 1000 using the range function. Then have 2 if statements in the for loop one for 3 and one for 5 and check if there is a remainder if there is no remainder then totsum is incremented by 1.
